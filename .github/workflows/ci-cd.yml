@@ -12,6 +12,24 @@ jobs:
     name: Deploying to scrub-network-project
 
     steps:
-      - name: Access Secrets
-        run: |
-          echo "Secret Token : ${{ secrets.VERCEL_ACCESS_TOKEN}}"
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to Vercel
+        uses: BetaHuhn/deploy-to-vercel-action@latest
+        with:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_ACCESS_TOKEN }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
