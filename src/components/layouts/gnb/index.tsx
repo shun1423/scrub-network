@@ -21,7 +21,12 @@ function Navbar({ className }: { className?: string }) {
   )
 
   return (
-    <div className={cn('flex fixed top-10 inset-x-0 mx-auto z-50', className)}>
+    <div
+      className={cn(
+        'flex fixed top-10 inset-x-0 mx-auto z-50 border-b-[1px] border-slate-400',
+        className,
+      )}
+    >
       <div className="flex justify-between mx-auto items-center w-4/6">
         <SparklesTitleLogo />
         <Menu setActive={setActive}>
@@ -81,7 +86,7 @@ function Navbar({ className }: { className?: string }) {
           >
             Join now
           </button>
-          <button type="button">{tailwindCssButton?.component}</button>
+          {tailwindCssButton?.component}
         </div>
       </div>
     </div>
