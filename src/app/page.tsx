@@ -7,7 +7,6 @@ export default function Home() {
     <div style={{ display: 'flex', flexDirection: 'column' }}>
       {' '}
       <GNB />
-      <TypewriterEffectSmoothDemo />
       <TracingBeamDemo />
     </div>
   )
