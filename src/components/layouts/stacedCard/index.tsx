@@ -157,7 +157,7 @@ const testimonials = [
   },
   {
     image:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80',
+      'https://images.unsplash.com/photo-1627161683077-e34782c24d81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80',
     description:
       'Your one-stop partner to help you get a dental job that fits your lifestyle.',
     name: 'Johnathan Rodriguez',
@@ -165,7 +165,7 @@ const testimonials = [
   },
   {
     image:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80',
+      'https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80',
     description:
       'Your one-stop partner to help you get a dental job that fits your lifestyle.',
     name: 'Phil Heath',
@@ -173,7 +173,7 @@ const testimonials = [
   },
   {
     image:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80',
+      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80',
     description:
       'Your one-stop partner to help you get a dental job that fits your lifestyle.',
     name: 'Andrea Beck',
@@ -181,19 +181,11 @@ const testimonials = [
   },
   {
     image:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80',
+      'https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80',
     description:
       'Your one-stop partner to help you get a dental job that fits your lifestyle.',
     name: 'Daniel Henderson',
     title: 'Engineering Manager, Kaggle',
-  },
-  {
-    image:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80',
-    description:
-      'Your one-stop partner to help you get a dental job that fits your lifestyle.',
-    name: 'Anderson Lima',
-    title: 'Product Manager, Slack',
   },
 ]
 
