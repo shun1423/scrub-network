@@ -4,5 +4,5 @@
 
 body {
   /* background-color: #f6ebf4; */
-  @apply bg-gradient-to-r from-slate-300 to-zinc-800;
+  @apply bg-gradient-to-r from-slate-800 via-stone-400 to-stone-800;
 }

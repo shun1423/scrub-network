@@ -5,6 +5,7 @@ import React from 'react'
 import Image from 'next/image'
 import { twMerge } from 'tailwind-merge'
 import TracingBeam from '@/components/ui/tracing-beam'
+import Process from '@/components/rending/process'
 import TypewriterEffectSmoothDemo from '../typewriterEffect'
 
 const dummyContent = [
@@ -86,8 +87,9 @@ const dummyContent = [
 const TracingBeamDemo = () => {
   return (
     <TracingBeam className="">
-      <div className=" mx-auto antialiased pt-4 relative">
+      <div className=" mx-auto max-w-6xl antialiased pt-4 relative">
         <TypewriterEffectSmoothDemo />
+        <Process />
         {dummyContent.map((item, index) => (
           // eslint-disable-next-line react/no-array-index-key
           <div key={`content-${index}`} className="mb-10">
