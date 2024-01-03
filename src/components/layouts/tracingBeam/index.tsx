@@ -87,8 +87,7 @@ const dummyContent = [
 const TracingBeamDemo = () => {
   return (
     <TracingBeam className="">
-      <div className=" mx-auto max-w-6xl antialiased pt-4 relative">
-        <TypewriterEffectSmoothDemo />
+      <div className=" flex flex-col items-center justify-center mx-auto max-w-[95rem] antialiased pt-4 relative">
         <Process />
         {dummyContent.map((item, index) => (
           // eslint-disable-next-line react/no-array-index-key
