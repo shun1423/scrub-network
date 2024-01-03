@@ -1,9 +1,5 @@
 import PinContainer from '@/components/ui/3d-pin'
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  LockClosedIcon,
-} from '@heroicons/react/20/solid'
+import { ArrowPathIcon, CloudArrowUpIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
@@ -12,7 +8,12 @@ const features = [
     href: '#',
     icon: CloudArrowUpIcon,
   },
-
+  {
+    name: 'Find Jobs',
+    description: 'FindJob.',
+    href: '#',
+    icon: ArrowPathIcon,
+  },
   {
     name: 'Get Interviews',
     description: 'Secure interviews with ease.',
