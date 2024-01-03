@@ -1,3 +1,12 @@
+import GNB from '@/components/layouts/gnb'
+import TracingBeamDemo from '@/components/layouts/tracingBeam'
+
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Dental Project Test</h1>
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
+      {' '}
+      <GNB />
+      <TracingBeamDemo />
+    </div>
+  )
 }
