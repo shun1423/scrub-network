@@ -6,7 +6,10 @@ import Image from 'next/image'
 import { twMerge } from 'tailwind-merge'
 import TracingBeam from '@/components/ui/tracing-beam'
 import Process from '@/components/rending/process'
-import TypewriterEffectSmoothDemo from '../typewriterEffect'
+import SlidePricing from '@/components/rending/price'
+import WaterDropHero from '../waterDrop'
+import LogoHero from '../LogoHero'
+import StackedCardTestimonials from '../stacedCard'
 
 const dummyContent = [
   {
@@ -87,8 +90,12 @@ const dummyContent = [
 const TracingBeamDemo = () => {
   return (
     <TracingBeam className="">
+      <WaterDropHero />
+      <Process />
+      <LogoHero />
+      <SlidePricing />
+      <StackedCardTestimonials />
       <div className=" flex flex-col items-center justify-center mx-auto max-w-[95rem] antialiased pt-4 relative">
-        <Process />
         {dummyContent.map((item, index) => (
           // eslint-disable-next-line react/no-array-index-key
           <div key={`content-${index}`} className="mb-10">
